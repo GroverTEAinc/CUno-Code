@@ -3,7 +3,7 @@ void setup() {
 }
 
 void loop() {
-  while(i=0)  //Temp Loop
+  while(i==0)  //Temp Loop
   {
     read/display temperature data
 
@@ -14,7 +14,7 @@ void loop() {
     delay(250);
   }
 
-  while(i=1)  //Humid Loop
+  while(i==1)  //Humid Loop
   {
     read/display Humidity Data    
       if(button is pushed)
@@ -24,7 +24,7 @@ void loop() {
     delay(250);
   }
 
-  while(i=2)  //CO2 Loop
+  while(i==2)  //CO2 Loop
   {
     read/display CO2 data    
       if(button is pushed)
