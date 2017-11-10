@@ -24,17 +24,7 @@ void loop() {
     delay(250);
   }
 
-  while(i=2)  //Wind Loop
-  {
-    read/display wind speed data    
-      if(button is pushed)
-      {
-        i+=1;
-      }
-    delay(250);
-  }
-
-  while(i=3)  //CO2 Loop
+  while(i=2)  //CO2 Loop
   {
     read/display CO2 data    
       if(button is pushed)
