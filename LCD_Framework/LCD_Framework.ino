@@ -29,7 +29,7 @@ void loop() {
         lcd.clear();
         i++;
       }
-    delay(500);
+    delay(2);
   }
 
   while(i==1)
@@ -46,7 +46,7 @@ void loop() {
         lcd.clear();
         i++;
       }
-    delay(500);
+    delay(2);
   }
   
   while(i==2)
@@ -63,6 +63,6 @@ void loop() {
         lcd.clear();
         i=0;
       }
-    delay(500);
+    delay(2);
   }
 }
